@@ -25,7 +25,7 @@ extension UIViewController {
 class MirroringViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        if L102Language.currentAppleLanguage() == "ar" {
+        if UIApplication.isRTL() {
             loopThroughSubViewAndFlipTheImageIfItsAUIImageView(subviews: self.view.subviews)
         }
     }

@@ -25,14 +25,11 @@ class ViewController: MirroringViewController {
     }
     
     @IBAction func switchLanguage(_ sender: Any) {
-        print(L102Language.currentAppleLanguage())
-        if L102Language.currentAppleLanguage() == "en" {
+        if !UIApplication.isRTL() {
             L102Language.setAppleLAnguageTo(lang: "ar")
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
-            
         } else {
             L102Language.setAppleLAnguageTo(lang: "en")
-            
             UIView.appearance().semanticContentAttribute = .forceLeftToRight
         }
         
