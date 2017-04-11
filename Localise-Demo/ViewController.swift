@@ -19,9 +19,9 @@ class ViewController: MirroringViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.localMe.text = NSLocalizedString("localize me please", comment: "Localize me Label in the main scene")
-        self.textF.placeholder = NSLocalizedString("placeholder", comment: "Placeholder")
-        self.textV.placeholderText = NSLocalizedString("placeholder", comment: "Placeholder")
+        self.localMe.local(with: "localize me please")
+        self.textF.localPlaceholder(with: "placeholder")
+        self.textV.localPlaceholder(with: "placeholder")
         self.textV.text = ""
     }
 

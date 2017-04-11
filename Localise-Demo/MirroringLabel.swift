@@ -30,5 +30,32 @@ class MirroringLabel: UILabel {
             }
         }
     }
+}
 
+extension UILabel {
+    public func cstmlayoutSubviews() {
+        self.cstmlayoutSubviews()
+        if self.tag <= 0  {
+            if UIApplication.isRTL()  {
+                if self.textAlignment == .right {
+                    return
+                }
+            } else {
+                if self.textAlignment == .left {
+                    return
+                }
+            }
+        }
+        if self.tag <= 0 {
+            if UIApplication.isRTL()  {
+                self.textAlignment = .right
+            } else {
+                self.textAlignment = .left
+            }
+        }
+    }
+    
+    public func local(with key: String, comment: String? = "") {
+        self.text = NSLocalizedString(key, comment: comment!)
+    }
 }

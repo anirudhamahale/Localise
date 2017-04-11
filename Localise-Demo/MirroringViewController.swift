@@ -6,7 +6,10 @@
 //  Copyright © 2017 LA Argon. All rights reserved.
 //
 
+
+// Make the image tag to negative to make it flipping.
 import UIKit
+
 extension UIViewController {
     func loopThroughSubViewAndFlipTheImageIfItsAUIImageView(subviews: [UIView]) {
         if subviews.count > 0 {
