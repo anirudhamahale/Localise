@@ -1,1 +1,15 @@
 
+/* Class = "UIButton"; normalTitle = "Switch Language"; ObjectID = "2Zi-qh-FfM"; */
+"2Zi-qh-FfM.normalTitle" = "تغيير اللغة";
+
+/* Class = "UINavigationItem"; title = "Main View"; ObjectID = "OLS-f8-2IB"; */
+"OLS-f8-2IB.title" = "الواجهة الرئيسية";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "Q4p-nC-Ac3"; */
+"Q4p-nC-Ac3.text" = "مرحبا";
+
+/* Class = "UIButton"; normalTitle = "Second View"; ObjectID = "cty-7D-kcT"; */
+"cty-7D-kcT.normalTitle" = "اذهب الى الشاشة الثانية";
+
+/* Class = "UILabel"; text = "Localise me"; ObjectID = "grq-KO-YMl"; */
+"grq-KO-YMl.text" = "الواجهة الرئيسية";

@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Localise_Demo" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,6 +26,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zi-qh-FfM">
                                 <rect key="frame" x="128" y="418.5" width="118" height="30"/>
                                 <state key="normal" title="Switch Language"/>
+                                <connections>
+                                    <action selector="switchLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zlz-Oh-I5N"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Localise me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grq-KO-YMl">
                                 <rect key="frame" x="36" y="361" width="90.5" height="21"/>
@@ -65,7 +68,7 @@
                             <constraint firstItem="dIy-Gy-opb" firstAttribute="top" secondItem="Q4p-nC-Ac3" secondAttribute="bottom" constant="50" id="dll-Zc-RkQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="OLS-f8-2IB"/>
+                    <navigationItem key="navigationItem" title="Main View" id="OLS-f8-2IB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

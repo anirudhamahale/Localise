@@ -22,8 +22,8 @@
 		BC3FAD0E1E9CCB5F00E249A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3FAD111E9CCB5F00E249A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3FAD131E9CCB5F00E249A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC3FAD191E9CCC8E00E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		BC3FAD1A1E9CCC8E00E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BC3FAD1E1E9CCFCC00E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = BC3FACFB1E9CCB5F00E249A1;
 			productRefGroup = BC3FAD051E9CCB5F00E249A1 /* Products */;
@@ -151,7 +152,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC3FAD0C1E9CCB5F00E249A1 /* Base */,
-				BC3FAD191E9CCC8E00E249A1 /* ar */,
+				BC3FAD1E1E9CCFCC00E249A1 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
