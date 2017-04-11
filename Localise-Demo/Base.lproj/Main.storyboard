@@ -99,7 +99,7 @@
         <!--Navigation Controller-->
         <scene sceneID="dKT-He-T87">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rb9-Z7-Lhe" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="rootnav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rb9-Z7-Lhe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TYs-Ay-m5l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
