@@ -10,13 +10,19 @@ import UIKit
 
 class ViewController: MirroringViewController {
     
-    @IBOutlet weak var localMe: MirroringLabel!
+    @IBOutlet weak var localMe: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var textF: UITextField!
+    @IBOutlet weak var textV: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.localMe.text = NSLocalizedString("localize me please", comment: "Localize me Label in the main scene")
+        self.textF.placeholder = NSLocalizedString("placeholder", comment: "Placeholder")
+        self.textV.placeholderText = NSLocalizedString("placeholder", comment: "Placeholder")
+        self.textV.text = ""
     }
 
     override func didReceiveMemoryWarning() {
