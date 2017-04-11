@@ -43,7 +43,7 @@
                                     <segue destination="bmU-EM-Vdr" kind="show" id="rAx-4O-44z"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-right.png" translatesAutoresizingMaskIntoConstraints="NO" id="dIy-Gy-opb">
+                            <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArrowImage" translatesAutoresizingMaskIntoConstraints="NO" id="dIy-Gy-opb">
                                 <rect key="frame" x="36" y="236" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="CL4-5l-INB"/>
@@ -120,6 +120,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow-right.png" width="512" height="512"/>
+        <image name="ArrowImage" width="256" height="256"/>
     </resources>
 </document>

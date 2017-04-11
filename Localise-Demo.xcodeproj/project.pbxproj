@@ -17,7 +17,6 @@
 		BC3FAD291E9CD7EF00E249A1 /* L012Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */; };
 		BC3FAD2B1E9CE28500E249A1 /* MirroringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */; };
 		BC3FAD2D1E9CEBD000E249A1 /* MirroringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */; };
-		BC3FAD2F1E9CEC2A00E249A1 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */; };
 		BC3FAD341E9CEFA200E249A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3FAD361E9CEFA200E249A1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L012Localizer.swift; sourceTree = "<group>"; };
 		BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringViewController.swift; sourceTree = "<group>"; };
 		BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringLabel.swift; sourceTree = "<group>"; };
-		BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
 		BC3FAD311E9CECCC00E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		BC3FAD351E9CEFA200E249A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BC3FAD371E9CEFA500E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 				BC3FAD091E9CCB5F00E249A1 /* ViewController.swift */,
 				BC3FAD211E9CD30C00E249A1 /* SecondView.swift */,
 				BC3FAD361E9CEFA200E249A1 /* Localizable.strings */,
-				BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */,
 				BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */,
 				BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */,
 				BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */,
@@ -151,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3FAD341E9CEFA200E249A1 /* Localizable.strings in Resources */,
-				BC3FAD2F1E9CEC2A00E249A1 /* arrow-right.png in Resources */,
 				BC3FAD121E9CCB5F00E249A1 /* LaunchScreen.storyboard in Resources */,
 				BC3FAD0F1E9CCB5F00E249A1 /* Assets.xcassets in Resources */,
 				BC3FAD0D1E9CCB5F00E249A1 /* Main.storyboard in Resources */,
