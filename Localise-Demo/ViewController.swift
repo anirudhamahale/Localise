@@ -9,11 +9,14 @@
 import UIKit
 
 class ViewController: MirroringViewController {
-
+    
+    @IBOutlet weak var localMe: MirroringLabel!
     @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.localMe.text = NSLocalizedString("localize me please", comment: "Localize me Label in the main scene")
     }
 
     override func didReceiveMemoryWarning() {

@@ -74,6 +74,7 @@
                     <navigationItem key="navigationItem" title="Main View" id="OLS-f8-2IB"/>
                     <connections>
                         <outlet property="imageView" destination="dIy-Gy-opb" id="0kg-pB-G3x"/>
+                        <outlet property="localMe" destination="grq-KO-YMl" id="EY4-eN-ThT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
