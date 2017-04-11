@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 extension UIApplication {
-    class func isRTL() -> Bool{
+    class func isRTL() -> Bool {
         return UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft
     }
     
@@ -72,6 +72,7 @@ extension Bundle {
         }
     }
 }
+
 
 func disableMethodSwizzling() {
     

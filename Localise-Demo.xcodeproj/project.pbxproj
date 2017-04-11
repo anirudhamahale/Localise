@@ -16,6 +16,8 @@
 		BC3FAD221E9CD30C00E249A1 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD211E9CD30C00E249A1 /* SecondView.swift */; };
 		BC3FAD291E9CD7EF00E249A1 /* L012Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */; };
 		BC3FAD2B1E9CE28500E249A1 /* MirroringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */; };
+		BC3FAD2D1E9CEBD000E249A1 /* MirroringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */; };
+		BC3FAD2F1E9CEC2A00E249A1 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		BC3FAD271E9CD3EF00E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L012Localizer.swift; sourceTree = "<group>"; };
 		BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringViewController.swift; sourceTree = "<group>"; };
+		BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringLabel.swift; sourceTree = "<group>"; };
+		BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,9 @@
 				BC3FAD071E9CCB5F00E249A1 /* AppDelegate.swift */,
 				BC3FAD091E9CCB5F00E249A1 /* ViewController.swift */,
 				BC3FAD211E9CD30C00E249A1 /* SecondView.swift */,
+				BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */,
 				BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */,
+				BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */,
 				BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */,
 				BC3FAD1F1E9CD27E00E249A1 /* L102Language.swift */,
 				BC3FAD0B1E9CCB5F00E249A1 /* Main.storyboard */,
@@ -139,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3FAD2F1E9CEC2A00E249A1 /* arrow-right.png in Resources */,
 				BC3FAD121E9CCB5F00E249A1 /* LaunchScreen.storyboard in Resources */,
 				BC3FAD0F1E9CCB5F00E249A1 /* Assets.xcassets in Resources */,
 				BC3FAD0D1E9CCB5F00E249A1 /* Main.storyboard in Resources */,
@@ -153,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3FAD2B1E9CE28500E249A1 /* MirroringViewController.swift in Sources */,
+				BC3FAD2D1E9CEBD000E249A1 /* MirroringLabel.swift in Sources */,
 				BC3FAD0A1E9CCB5F00E249A1 /* ViewController.swift in Sources */,
 				BC3FAD201E9CD27E00E249A1 /* L102Language.swift in Sources */,
 				BC3FAD221E9CD30C00E249A1 /* SecondView.swift in Sources */,
