@@ -102,18 +102,26 @@
 				BC3FAD091E9CCB5F00E249A1 /* ViewController.swift */,
 				BC3FAD211E9CD30C00E249A1 /* SecondView.swift */,
 				BC3FAD361E9CEFA200E249A1 /* Localizable.strings */,
-				BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */,
-				BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */,
-				BC3FAD3B1E9CF70C00E249A1 /* MirroringTextView.swift */,
-				BC3FAD391E9CF6FB00E249A1 /* MirroringTextField.swift */,
-				BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */,
-				BC3FAD1F1E9CD27E00E249A1 /* L102Language.swift */,
+				BC3FAD3D1E9CFE2C00E249A1 /* Localise Files */,
 				BC3FAD0B1E9CCB5F00E249A1 /* Main.storyboard */,
 				BC3FAD0E1E9CCB5F00E249A1 /* Assets.xcassets */,
 				BC3FAD101E9CCB5F00E249A1 /* LaunchScreen.storyboard */,
 				BC3FAD131E9CCB5F00E249A1 /* Info.plist */,
 			);
 			path = "Localise-Demo";
+			sourceTree = "<group>";
+		};
+		BC3FAD3D1E9CFE2C00E249A1 /* Localise Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */,
+				BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */,
+				BC3FAD3B1E9CF70C00E249A1 /* MirroringTextView.swift */,
+				BC3FAD391E9CF6FB00E249A1 /* MirroringTextField.swift */,
+				BC3FAD281E9CD7EF00E249A1 /* L012Localizer.swift */,
+				BC3FAD1F1E9CD27E00E249A1 /* L102Language.swift */,
+			);
+			name = "Localise Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
