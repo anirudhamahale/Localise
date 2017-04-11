@@ -18,6 +18,7 @@
 		BC3FAD2B1E9CE28500E249A1 /* MirroringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */; };
 		BC3FAD2D1E9CEBD000E249A1 /* MirroringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */; };
 		BC3FAD2F1E9CEC2A00E249A1 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */; };
+		BC3FAD341E9CEFA200E249A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3FAD361E9CEFA200E249A1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,9 @@
 		BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirroringLabel.swift; sourceTree = "<group>"; };
 		BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
 		BC3FAD311E9CECCC00E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		BC3FAD351E9CEFA200E249A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC3FAD371E9CEFA500E249A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC3FAD381E9CEFA600E249A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				BC3FAD071E9CCB5F00E249A1 /* AppDelegate.swift */,
 				BC3FAD091E9CCB5F00E249A1 /* ViewController.swift */,
 				BC3FAD211E9CD30C00E249A1 /* SecondView.swift */,
+				BC3FAD361E9CEFA200E249A1 /* Localizable.strings */,
 				BC3FAD2E1E9CEC2A00E249A1 /* arrow-right.png */,
 				BC3FAD2A1E9CE28500E249A1 /* MirroringViewController.swift */,
 				BC3FAD2C1E9CEBD000E249A1 /* MirroringLabel.swift */,
@@ -145,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3FAD341E9CEFA200E249A1 /* Localizable.strings in Resources */,
 				BC3FAD2F1E9CEC2A00E249A1 /* arrow-right.png in Resources */,
 				BC3FAD121E9CCB5F00E249A1 /* LaunchScreen.storyboard in Resources */,
 				BC3FAD0F1E9CCB5F00E249A1 /* Assets.xcassets in Resources */,
@@ -188,6 +194,16 @@
 				BC3FAD1A1E9CCC8E00E249A1 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3FAD361E9CEFA200E249A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FAD351E9CEFA200E249A1 /* Base */,
+				BC3FAD371E9CEFA500E249A1 /* ar */,
+				BC3FAD381E9CEFA600E249A1 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
