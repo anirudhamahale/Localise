@@ -72,6 +72,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main View" id="OLS-f8-2IB"/>
+                    <connections>
+                        <outlet property="imageView" destination="dIy-Gy-opb" id="0kg-pB-G3x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

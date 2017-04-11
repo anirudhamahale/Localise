@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: MirroringViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,8 +26,10 @@ class ViewController: MirroringViewController {
         if L102Language.currentAppleLanguage() == "en" {
             L102Language.setAppleLAnguageTo(lang: "ar")
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
+            imageView.transform = CGAffineTransform(scaleX: -1, y: 1)
         } else {
             L102Language.setAppleLAnguageTo(lang: "en")
+            imageView.transform = CGAffineTransform(scaleX: 1, y: 1)
             UIView.appearance().semanticContentAttribute = .forceLeftToRight
         }
         

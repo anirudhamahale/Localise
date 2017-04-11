@@ -12,6 +12,16 @@ extension UIApplication {
     class func isRTL() -> Bool{
         return UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft
     }
+    
+    var cstm_userInterfaceLayoutDirection : UIUserInterfaceLayoutDirection {
+        get {
+            var direction = UIUserInterfaceLayoutDirection.leftToRight
+            if L102Language.currentAppleLanguage() == "ar" {
+                direction = .rightToLeft
+            }
+            return direction
+        }
+    }
 }
 
 class L102Localizer: NSObject {
@@ -44,17 +54,7 @@ extension UILabel {
         }
     }
 }
-extension UIApplication {
-    var cstm_userInterfaceLayoutDirection : UIUserInterfaceLayoutDirection {
-        get {
-            var direction = UIUserInterfaceLayoutDirection.leftToRight
-            if L102Language.currentAppleLanguage() == "ar" {
-                direction = .rightToLeft
-            }
-            return direction
-        }
-    }
-}
+
 extension Bundle {
     func specialLocalizedStringForKey(_ key: String, value: String?, table tableName: String?) -> String {
         if self == Bundle.main {
