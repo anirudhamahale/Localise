@@ -56,13 +56,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PlaceHolder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bfg-v1-YLj">
+                                <rect key="frame" x="56.5" y="456" width="262.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2Zi-qh-FfM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.3" id="1hD-fr-MZW"/>
                             <constraint firstItem="Q4p-nC-Ac3" firstAttribute="leading" secondItem="dIy-Gy-opb" secondAttribute="leading" id="2Ba-NW-RGY"/>
                             <constraint firstItem="cty-7D-kcT" firstAttribute="top" secondItem="dIy-Gy-opb" secondAttribute="bottom" constant="8" id="Bfu-hb-auu"/>
+                            <constraint firstItem="bfg-v1-YLj" firstAttribute="top" secondItem="2Zi-qh-FfM" secondAttribute="bottom" constant="7.5" id="KOQ-aa-dKD"/>
+                            <constraint firstItem="bfg-v1-YLj" firstAttribute="centerX" secondItem="2Zi-qh-FfM" secondAttribute="centerX" id="Lwb-dE-ALT"/>
                             <constraint firstItem="2Zi-qh-FfM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TaR-xN-0xF"/>
+                            <constraint firstItem="bfg-v1-YLj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="VRH-al-9le"/>
                             <constraint firstItem="2Zi-qh-FfM" firstAttribute="top" secondItem="grq-KO-YMl" secondAttribute="bottom" constant="36.5" id="XmQ-em-U8b"/>
                             <constraint firstItem="grq-KO-YMl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="bvE-UQ-Klm"/>
                             <constraint firstItem="dIy-Gy-opb" firstAttribute="leading" secondItem="cty-7D-kcT" secondAttribute="leading" id="cG3-zN-6CC"/>
