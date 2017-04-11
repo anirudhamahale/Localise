@@ -39,6 +39,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cty-7D-kcT">
                                 <rect key="frame" x="36" y="294" width="89" height="30"/>
                                 <state key="normal" title="Second View"/>
+                                <connections>
+                                    <segue destination="bmU-EM-Vdr" kind="show" id="rAx-4O-44z"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArrowImage" translatesAutoresizingMaskIntoConstraints="NO" id="dIy-Gy-opb">
                                 <rect key="frame" x="36" y="236" width="50" height="50"/>
@@ -73,6 +76,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="847" y="-561"/>
+        </scene>
+        <!--Second View-->
+        <scene sceneID="xFh-3C-HXO">
+            <objects>
+                <viewController id="bmU-EM-Vdr" customClass="SecondView" customModule="Localise_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BPZ-Qf-w08"/>
+                        <viewControllerLayoutGuide type="bottom" id="4dK-IA-fY9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s68-Jo-IGh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second View" id="E12-a9-H3c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vKE-TN-Jpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="-562"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dKT-He-T87">

@@ -1,15 +1,18 @@
 
-/* Class = "UIButton"; normalTitle = "Switch Language"; ObjectID = "2Zi-qh-FfM"; */
-"2Zi-qh-FfM.normalTitle" = "تغيير اللغة";
+/* Class = "UIButton"; normalTitle = "تبديل لانغاو"; ObjectID = "2Zi-qh-FfM"; */
+"2Zi-qh-FfM.normalTitle" = "تبديل لانغاو";
 
-/* Class = "UINavigationItem"; title = "Main View"; ObjectID = "OLS-f8-2IB"; */
-"OLS-f8-2IB.title" = "الواجهة الرئيسية";
+/* Class = "UINavigationItem"; title = "المنظر الثاني"; ObjectID = "E12-a9-H3c"; */
+"E12-a9-H3c.title" = "المنظر الثاني";
 
-/* Class = "UILabel"; text = "Hello"; ObjectID = "Q4p-nC-Ac3"; */
+/* Class = "UINavigationItem"; title = "شاشة العرض الرئيسية"; ObjectID = "OLS-f8-2IB"; */
+"OLS-f8-2IB.title" = "شاشة العرض الرئيسية";
+
+/* Class = "UILabel"; text = "مرحبا"; ObjectID = "Q4p-nC-Ac3"; */
 "Q4p-nC-Ac3.text" = "مرحبا";
 
-/* Class = "UIButton"; normalTitle = "Second View"; ObjectID = "cty-7D-kcT"; */
-"cty-7D-kcT.normalTitle" = "اذهب الى الشاشة الثانية";
+/* Class = "UIButton"; normalTitle = "المنظر الثاني"; ObjectID = "cty-7D-kcT"; */
+"cty-7D-kcT.normalTitle" = "المنظر الثاني";
 
-/* Class = "UILabel"; text = "Localise me"; ObjectID = "grq-KO-YMl"; */
-"grq-KO-YMl.text" = "الواجهة الرئيسية";
+/* Class = "UILabel"; text = "توطين لي"; ObjectID = "grq-KO-YMl"; */
+"grq-KO-YMl.text" = "توطين لي";
