@@ -13,7 +13,7 @@ extension UIApplication {
         return UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft
     }
     
-    var cstm_userInterfaceLayoutDirection : UIUserInterfaceLayoutDirection {
+    @objc var cstm_userInterfaceLayoutDirection : UIUserInterfaceLayoutDirection {
         get {
             var direction = UIUserInterfaceLayoutDirection.leftToRight
             if L102Language.currentAppleLanguage() == "ar" {
@@ -35,7 +35,7 @@ class L102Localizer: NSObject {
 }
 
 extension Bundle {
-    func specialLocalizedStringForKey(_ key: String, value: String?, table tableName: String?) -> String {
+    @objc func specialLocalizedStringForKey(_ key: String, value: String?, table tableName: String?) -> String {
         if self == Bundle.main {
             let currentLanguage = L102Language.currentAppleLanguage()
             var bundle = Bundle();
@@ -54,8 +54,8 @@ extension Bundle {
 
 /// Exchange the implementation of two methods of the same Class
 func MethodSwizzleGivenClassName(cls: AnyClass, originalSelector: Selector, overrideSelector: Selector) {
-    let origMethod: Method = class_getInstanceMethod(cls, originalSelector);
-    let overrideMethod: Method = class_getInstanceMethod(cls, overrideSelector);
+    let origMethod: Method = class_getInstanceMethod(cls, originalSelector)!;
+    let overrideMethod: Method = class_getInstanceMethod(cls, overrideSelector)!;
     if (class_addMethod(cls, originalSelector, method_getImplementation(overrideMethod), method_getTypeEncoding(overrideMethod))) {
         class_replaceMethod(cls, overrideSelector, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
     } else {
